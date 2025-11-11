@@ -11,11 +11,11 @@
 
 @media(min-width: 824px) and (orientation: landscape){
     .writContainer{
-        width: 40rem;
+        width: 40rem!important;
         margin-top: 5rem;
     }
     .subContainer{
-        width: 30rem;
+        width: 30rem!important;
     }
 }
 
