@@ -31,7 +31,7 @@ const WritBody = () => {
             </p>
           </div>
           <div className='flex flex-col justify-between h-full'>
-            <img className='rounded w-full max-h-[200px] object-contain' src={parentPage} alt='Parent Page' />
+            <img className='img1 rounded w-full max-h-[100%] object-contain' src={parentPage} alt='Parent Page' />
             <p className='bg-[rgb(1,1,30)] text-[10px] text-blue-300 px-2 italic rounded mt-2'>
               Images accredited to: Byte Legacy
             </p>
@@ -47,8 +47,8 @@ const WritBody = () => {
             </p>
           </div>
           <div className='flex flex-col justify-between h-full'>
-            <img className='rounded w-full max-h-[200px] object-contain' src={nestedRoutePaths} alt='Nested Routes' />
-            <p className='bg-[rgb(1,1,30)] text-[10px] text-blue-300 px-2 italic rounded'>
+            <img className='rounded w-full max-h-[100%] object-contain' src={nestedRoutePaths} alt='Nested Routes' />
+            <p className='bg-[rgb(1,1,30)] text-[10px] text-blue-300 px-2 italic rounded mt-2'>
             Images accredited to: Byte Legacy</p>
           </div>
         </section>
