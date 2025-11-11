@@ -1,0 +1,38 @@
+@media (min-width: 712px) and (orientation: portrait){
+    .writContainer{
+        width: 40rem;
+        margin-top: 10rem;
+        max-height: calc(100vh - 18rem)!important;
+    }
+    .subContainer{
+        width: 30rem;
+    }
+}
+
+@media(min-width: 824px) and (orientation: landscape){
+    .writContainer{
+        width: 40rem;
+        margin-top: 5rem;
+    }
+    .subContainer{
+        width: 30rem;
+    }
+}
+
+@media (min-width: 1024px) and (orientation: landscape){
+    .writContainer{
+        width: 55rem;
+    }
+    .subContainer{
+        width: 45rem;
+    }
+}
+
+@media (min-width: 1440px) and (orientation: landscape){
+    .writContainer{
+        width: 65rem;
+    }
+    .subContainer{
+        width: 55rem;
+    }
+}
