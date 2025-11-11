@@ -19,20 +19,20 @@
     }
 }
 
-@media (min-width: 1024px) and (orientation: landscape){
+@media (min-width: 1138px) and (orientation: landscape){
     .writContainer{
-        width: 55rem;
+        width: 55rem!important;
     }
     .subContainer{
-        width: 45rem;
+        width: 45rem!important;
     }
 }
 
 @media (min-width: 1440px) and (orientation: landscape){
     .writContainer{
-        width: 65rem;
+        width: 65rem!important;
     }
     .subContainer{
-        width: 55rem;
+        width: 60rem!important;
     }
 }

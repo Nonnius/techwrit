@@ -7,8 +7,9 @@ import nestedRoutePaths from '../assets/nestedRoutePaths.jpg';
 const WritBody = () => {
   return (
     <>
-    <div className='writContainer bg-blue-300/20 rounded overflow-y-auto mt-[6rem] max-w-[60rem] h-[calc(100vh-10rem)] mx-auto px-4 py-6'>
-      <div className='subContainer max-w-[50rem] mx-auto'>
+    <div className='writContainer max-w-screen-md bg-blue-300/20 rounded overflow-y-auto mt-[6rem] 
+     md:max-w-[55rem] lg:max-w-[65rem] h-[calc(100vh-10rem)] mx-auto px-4 py-6'>
+      <div className='subContainer max-w-prose lg:max-w-[55rem] mx-auto'>
 
         {/* Intro Section */}
         <section className='bg-[rgb(1,1,30)] rounded px-4 py-6 mb-10'>
@@ -47,6 +48,8 @@ const WritBody = () => {
           </div>
           <div className='flex flex-col justify-between h-full'>
             <img className='rounded w-full max-h-[200px] object-contain' src={nestedRoutePaths} alt='Nested Routes' />
+            <p className='bg-[rgb(1,1,30)] text-[10px] text-blue-300 px-2 italic rounded'>
+            Images accredited to: Byte Legacy</p>
           </div>
         </section>
 
